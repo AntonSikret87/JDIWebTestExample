@@ -1,0 +1,180 @@
+2018-11-23 12:03:42 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:03:42 INFO: Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2018-11-23 12:03:42 INFO: Downloading https://chromedriver.storage.googleapis.com/2.37/chromedriver_win32.zip
+2018-11-23 12:03:43 INFO: Extracting binary from compressed file chromedriver_win32.zip
+2018-11-23 12:03:44 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:03:44 INFO: Init test run
+2018-11-23 12:03:44 INFO: Open page 'Texts Page' for Texts Page(file:///D:\AutoMy\JDIexample\src\test\resources\Contact Form.html)
+2018-11-23 12:03:49 INFO: Input several lines of text in textarea for TextArea 'Text Area' (TextPage.textArea; ; xpath='//textarea[@id='Description']')
+2018-11-23 12:03:49 INFO: Clear text field for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:03:49 INFO: Input text 'Some text 1' in text field for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:03:49 INFO: Clear text field for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:03:49 INFO: Input text 'Some text 2' in text field for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:03:49 INFO: Get text as lines for TextArea 'Text Area' (TextPage.textArea; ; xpath='//textarea[@id='Description']')
+2018-11-23 12:03:49 INFO: Get result '[Ljava.lang.String;@435871cb' in 0.02 seconds
+2018-11-23 12:03:49 INFO: Check that Collections are equal
+2018-11-23 12:03:49 INFO: Check that Collections are equal
+2018-11-23 12:03:49 INFO: Get text for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:03:49 INFO: Get result 'Some text 1' in 0.02 seconds
+2018-11-23 12:03:49 INFO: Check that 'Some text 1' equals to 'Some text 1'
+2018-11-23 12:03:49 INFO: Get text for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:03:49 INFO: Get result 'Some text 2' in 0.02 seconds
+2018-11-23 12:03:49 INFO: Check that 'Some text 2' equals to 'Some text 2'
+2018-11-23 12:03:49 INFO: Test run finished. 
+Total test run time: 23:00:04.6
+2018-11-23 12:04:43 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:04:43 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:04:43 INFO: Init test run
+2018-11-23 12:04:46 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 12:05:28 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:06:04 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:06:04 INFO: Get result 'Checkbox is checked' in 0.03 seconds
+2018-11-23 12:06:04 INFO: Check that condition 'true' is True
+2018-11-23 12:06:39 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:06:51 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:06:51 INFO: Get result 'Checkbox is unchecked' in 0.03 seconds
+2018-11-23 12:06:51 INFO: Check that condition 'false' is True
+2018-11-23 12:06:52 ERROR: Check that condition 'false' is True failed
+2018-11-23 12:06:52 INFO: Test run finished. 
+Total test run time: 23:02:08.7
+2018-11-23 12:07:09 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:07:09 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:07:09 INFO: Init test run
+2018-11-23 12:07:21 INFO: Test run finished. 
+Total test run time: 23:00:11.9
+2018-11-23 12:08:24 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:08:24 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:08:24 INFO: Init test run
+2018-11-23 12:09:00 INFO: Test run finished. 
+Total test run time: 23:00:35.9
+2018-11-23 12:09:11 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:09:11 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:09:11 INFO: Init test run
+2018-11-23 12:09:11 INFO: Open page 'Jobs Page' for Jobs Page(https://www.epam.com/careers/job-listings?query=test&department%5B%5D=all&city=St-Petersburg&country=Russia)
+2018-11-23 12:09:17 INFO: Get web element for EntityTable 'Jobs' (JobsPage.jobs; ; className='search-result-list')
+2018-11-23 12:09:28 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:09:28 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:09:28 INFO: Init test run
+2018-11-23 12:09:28 INFO: Open page 'Texts Page' for Texts Page(file:///D:\AutoMy\JDIexample\src\test\resources\Contact Form.html)
+2018-11-23 12:09:32 INFO: Input several lines of text in textarea for TextArea 'Text Area' (TextPage.textArea; ; xpath='//textarea[@id='Description']')
+2018-11-23 12:09:32 INFO: Clear text field for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:09:32 INFO: Input text 'Some text 1' in text field for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:09:32 INFO: Clear text field for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:09:33 INFO: Input text 'Some text 2' in text field for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:09:33 INFO: Get text as lines for TextArea 'Text Area' (TextPage.textArea; ; xpath='//textarea[@id='Description']')
+2018-11-23 12:09:33 INFO: Get result '[Ljava.lang.String;@41813449' in 0.02 seconds
+2018-11-23 12:09:33 INFO: Check that Collections are equal
+2018-11-23 12:09:33 INFO: Check that Collections are equal
+2018-11-23 12:09:33 INFO: Get text for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:09:33 INFO: Get result 'Some text 1' in 0.02 seconds
+2018-11-23 12:09:33 INFO: Check that 'Some text 1' equals to 'Some text 1'
+2018-11-23 12:09:33 INFO: Get text for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:09:33 INFO: Get result 'Some text 2' in 0.03 seconds
+2018-11-23 12:09:33 INFO: Check that 'Some text 2' equals to 'Some text 2'
+2018-11-23 12:09:33 INFO: Test run finished. 
+Total test run time: 23:00:04.5
+2018-11-23 12:10:20 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:10:20 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:10:20 INFO: Init test run
+2018-11-23 12:10:20 INFO: Open page 'Texts Page' for Texts Page(file:///D:\AutoMy\JDIexample\src\test\resources\Contact Form.html)
+2018-11-23 12:10:24 INFO: Input several lines of text in textarea for TextArea 'Text Area' (TextPage.textArea; ; xpath='//textarea[@id='Description']')
+2018-11-23 12:10:24 INFO: Clear text field for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:10:24 INFO: Input text 'Some text 1' in text field for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:10:24 INFO: Clear text field for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:10:24 INFO: Input text 'Some text 2' in text field for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:10:24 INFO: Get text as lines for TextArea 'Text Area' (TextPage.textArea; ; xpath='//textarea[@id='Description']')
+2018-11-23 12:10:24 INFO: Get result '[Ljava.lang.String;@41813449' in 0.04 seconds
+2018-11-23 12:10:24 INFO: Check that Collections are equal
+2018-11-23 12:10:24 INFO: Check that Collections are equal
+2018-11-23 12:10:24 INFO: Get text for Input 'Field1' (TextPage.field1; ; xpath='//input[@id='Name']')
+2018-11-23 12:10:24 INFO: Get result 'Some text 1' in 0.02 seconds
+2018-11-23 12:10:24 INFO: Check that 'Some text 1' equals to 'Some text 1'
+2018-11-23 12:10:24 INFO: Get text for Input 'Field2' (TextPage.field2; ; xpath='//input[@id='LastName']')
+2018-11-23 12:10:24 INFO: Get result 'Some text 2' in 0.02 seconds
+2018-11-23 12:10:24 INFO: Check that 'Some text 2' equals to 'Some text 2'
+2018-11-23 12:10:24 INFO: Test run finished. 
+Total test run time: 23:00:04.6
+2018-11-23 12:17:22 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:17:22 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:17:22 INFO: Init test run
+2018-11-23 12:17:22 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 12:17:28 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:17:29 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:17:29 INFO: Get result 'Checkbox is checked' in 0.06 seconds
+2018-11-23 12:17:29 INFO: Check that condition 'true' is True
+2018-11-23 12:17:29 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:17:29 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:17:29 INFO: Get result 'Checkbox is checked' in 0.06 seconds
+2018-11-23 12:17:29 INFO: Check that condition 'true' is True
+2018-11-23 12:17:29 INFO: Test run finished. 
+Total test run time: 23:00:07.1
+2018-11-23 12:17:38 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:17:38 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:17:38 INFO: Init test run
+2018-11-23 12:17:38 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 12:17:44 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:17:44 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:17:44 INFO: Get result 'Checkbox is checked' in 0.05 seconds
+2018-11-23 12:17:44 INFO: Check that condition 'true' is True
+2018-11-23 12:17:44 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:17:45 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:17:45 INFO: Get result 'Checkbox is checked' in 0.05 seconds
+2018-11-23 12:17:45 INFO: Check that condition 'true' is True
+2018-11-23 12:17:45 INFO: Test run finished. 
+Total test run time: 23:00:06.7
+2018-11-23 12:29:27 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:29:27 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:29:27 INFO: Init test run
+2018-11-23 12:29:27 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 12:29:33 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:29:33 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:29:33 INFO: Get result 'Checkbox is checked' in 0.07 seconds
+2018-11-23 12:29:33 INFO: Check that condition 'true' is True
+2018-11-23 12:29:33 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:29:33 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:29:33 INFO: Get result 'Checkbox is checked' in 0.03 seconds
+2018-11-23 12:29:33 INFO: Check that condition 'true' is True
+2018-11-23 12:29:33 INFO: Test run finished. 
+Total test run time: 23:00:06.6
+2018-11-23 12:29:51 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:29:51 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:29:51 INFO: Init test run
+2018-11-23 12:29:51 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 12:29:57 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:29:57 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:29:57 INFO: Get result 'Checkbox is checked' in 0.08 seconds
+2018-11-23 12:29:57 INFO: Check that condition 'true' is True
+2018-11-23 12:29:57 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:29:57 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:29:57 INFO: Get result 'Checkbox is checked' in 0.06 seconds
+2018-11-23 12:29:57 INFO: Check that condition 'true' is True
+2018-11-23 12:29:57 INFO: Test run finished. 
+Total test run time: 23:00:06.1
+2018-11-23 12:30:44 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 12:30:44 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 12:30:44 INFO: Init test run
+2018-11-23 12:30:44 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 12:30:50 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:30:50 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 12:30:50 INFO: Get result 'Checkbox is checked' in 0.05 seconds
+2018-11-23 12:30:50 INFO: Check that condition 'true' is True
+2018-11-23 12:30:50 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:30:50 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 12:30:50 INFO: Get result 'Checkbox is checked' in 0.03 seconds
+2018-11-23 12:30:50 INFO: Check that condition 'true' is True
+2018-11-23 12:30:50 INFO: Test run finished. 
+Total test run time: 23:00:06.6
+2018-11-23 14:42:38 INFO: Using chromedriver 2.37 (since Google Chrome 64 is installed in your machine)
+2018-11-23 14:42:38 INFO: Exporting webdriver.chrome.driver as C:\Users\a.karabeinikov\.m2\repository\webdriver\chromedriver\win32\2.37\chromedriver.exe
+2018-11-23 14:42:38 INFO: Init test run
+2018-11-23 14:42:38 INFO: Open page 'Angular Page' for Angular Page(https://material.angularjs.org/latest/demo/input)
+2018-11-23 14:42:44 INFO: Check Checkbox for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 14:42:44 INFO: IsChecked for ICheckBox 'Accept Terms' (AngularPage.acceptTerms; ; cssSelector='[name=tos] .md-container')
+2018-11-23 14:42:44 INFO: Get result 'Checkbox is checked' in 0.05 seconds
+2018-11-23 14:42:44 INFO: Check that condition 'true' is True
+2018-11-23 14:42:44 INFO: Check Checkbox for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 14:42:44 INFO: IsChecked for Toggle 'Special Options' (AngularPage.specialOptions; ; cssSelector='[name=special] .md-container')
+2018-11-23 14:42:44 INFO: Get result 'Checkbox is checked' in 0.03 seconds
+2018-11-23 14:42:44 INFO: Check that condition 'true' is True
+2018-11-23 14:42:45 INFO: Test run finished. 
+Total test run time: 23:00:06.1
