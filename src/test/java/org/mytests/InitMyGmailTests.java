@@ -15,6 +15,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import static com.epam.commons.StringUtils.LINE_BREAK;
+import static com.epam.jdi.uitests.core.logger.LogLevels.STEP;
 import static com.epam.jdi.uitests.core.settings.JDISettings.logger;
 
 
@@ -22,24 +23,17 @@ import static com.epam.jdi.uitests.core.settings.JDISettings.logger;
 public class InitMyGmailTests extends TestNGBase {
 
 
-	@BeforeSuite(alwaysRun = true)
+	@BeforeSuite()
 	public static void setUp() throws Exception {
+		logger.setLogLevel(STEP);
 		WebSite.init(GmailSite.class);
+		//GmailSite.open();
 		logger.info("Run Tests");
 	}
 
 
-//	@AfterSuite(alwaysRun = true)
-//	public static void tearDown() throws IOException {
-//		//WebDriverUtils.killAllRunWebBrowsers();
-//		System.out.println("driver should be closed");
-//		//WebPage.currentPage.getDriver().close();
-//		WebSettings.getDriver().close();
-//
-//		killAllRunWebBrowsers();
-//	}
 
-	@AfterSuite(alwaysRun = true)
+	@AfterSuite()
 	public static void jdiTearDown() throws IOException {
 		LocalDateTime date = Instant.ofEpochMilli(21 * 3600000 + getTestRunTime())
 		                            .atZone(ZoneId.systemDefault())
@@ -50,6 +44,6 @@ public class InitMyGmailTests extends TestNGBase {
 
 		if (WebSettings.killBrowser.toLowerCase().contains("after"))
 			WebSettings.getDriver().close();
-			WebDriverUtils.killAllRunWebBrowsers();
+		    WebDriverUtils.killAllRunWebBrowsers();
 	}
 }

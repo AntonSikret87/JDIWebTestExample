@@ -4,8 +4,8 @@ import com.epam.commons.DataClass;
 
 public class User extends DataClass<User> {
 
-	public String userName = "testantonastound@gmail.com";
-	public String userPassword = "12Test*34";
+	public String userName;
+	public String userPassword;
 
 }
 

@@ -1,30 +1,29 @@
 package org.mytests.gmail.com.testDataEntities;
 
+
 import org.testng.annotations.DataProvider;
+
+import static org.mytests.gmail.com.testDataEntities.Users.FAILED_EMAIL_USER;
+import static org.mytests.gmail.com.testDataEntities.Users.FAILED_PASS_USER;
 
 public class NegativeData {
 
 	@DataProvider(name = "negativeEmailData")
 	private Object[][] negativeEmailData() {
-		User user = new User();
+		//User user = new User();
 		return new Object[][]{
-				{user.userName = "sdssd£"},
-				{user.userName = "232323£"},
-//				{user.userName = "sdssd£dd%"},
-//				{user.userName = "sdewedw32ssd£%"},
-				};
+				{FAILED_EMAIL_USER.userName},
+				//{FAILED_EMAIL_USER.userName = "232323£"},
+		};
 	}
 
 
 	@DataProvider(name = "negativePasswordData")
 	private Object[][] negativePasswordData() {
-		User user = new User();
-		//create guerillamail generator
+		//	User user = new User();
 		return new Object[][]{
-				{user.userPassword = "sdssd£"},
-				{user.userPassword = "232323£"},
-//				{user.userPassword = "sdssd£dd%"},
-//				{user.userPassword = "sdewedw32ssd£%"},
-				};
+				{FAILED_PASS_USER.userName, FAILED_PASS_USER.userPassword},
+				//{FAILED_PASS_USER.userPassword = "232323£"},
+		};
 	}
 }

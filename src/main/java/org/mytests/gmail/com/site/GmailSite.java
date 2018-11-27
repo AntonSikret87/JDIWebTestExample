@@ -6,13 +6,13 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.JSite;
 import org.mytests.gmail.com.pages.GmailLoggedInPage;
 import org.mytests.gmail.com.pages.GmailLoginHomePage;
 
-@JSite("https://accounts.google.com")
+@JSite("https://mail.google.com")
 public class GmailSite extends WebSite {
 
-    @JPage("https://accounts.google.com")
-    public static GmailLoginHomePage gmailLoginHomePage;
+	@JPage("https://mail.google.com")
+	public static GmailLoginHomePage gmailLoginHomePage;
 
-     @JPage(url = "/?pli=1")
-     public static GmailLoggedInPage gmailLoggedInPage;
+	@JPage(url = "/?pli=1")
+	public static GmailLoggedInPage gmailLoggedInPage;
 
 }

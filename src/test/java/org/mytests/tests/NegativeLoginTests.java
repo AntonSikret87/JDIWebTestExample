@@ -1,16 +1,23 @@
 package org.mytests.tests;
 
+import com.epam.jdi.uitests.web.settings.WebSettings;
 import com.epam.web.matcher.testng.Assert;
+import com.epam.web.matcher.verify.Verify;
 import org.mytests.InitMyGmailTests;
 import org.mytests.gmail.com.testDataEntities.NegativeData;
-import org.mytests.gmail.com.testDataEntities.User;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import static org.mytests.gmail.com.site.GmailSite.gmailLoginHomePage;
 
 
 public class NegativeLoginTests extends InitMyGmailTests {
-	User user = new User();
+
+	@AfterMethod
+	public void tearDown() {
+		Verify.getFails();
+		WebSettings.getDriver().quit();
+	}
 
 	@Test(dataProvider = "negativeEmailData", dataProviderClass = NegativeData.class)
 	public void negativeLoginWithEmail(String userName) {
@@ -22,9 +29,9 @@ public class NegativeLoginTests extends InitMyGmailTests {
 	}
 
 	@Test(dataProvider = "negativePasswordData", dataProviderClass = NegativeData.class)
-	public void negativeLoginWithPassword(String userPassword) {
+	public void negativeLoginWithPassword(String userName, String userPassword) {
 		gmailLoginHomePage.open();
-		gmailLoginHomePage.emailField.sendKeys(user.userName);
+		gmailLoginHomePage.emailField.sendKeys(userName);
 		gmailLoginHomePage.emailNextBtn.click();
 		gmailLoginHomePage.passwordField.sendKeys(userPassword);
 		gmailLoginHomePage.passwordNextBtn.click();

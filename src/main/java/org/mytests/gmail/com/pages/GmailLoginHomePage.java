@@ -23,6 +23,7 @@ public class GmailLoginHomePage extends WebPage {
 
 	@FindBy(css = ".IYewr .dEOOab") public WebElement lblWrongEnteredValueError;
 
+
 	public void enterEmail(String email){
 		emailField.sendKeys(email);
 	}
