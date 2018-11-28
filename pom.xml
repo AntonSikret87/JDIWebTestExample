@@ -10,6 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<aspectj.version>1.8.5</aspectj.version>
 		<!--clean install -Ddriver=firefox-->
+		<allure.version>1.5.4</allure.version>
 	</properties>
 
 	<parent>
@@ -46,7 +47,7 @@
 		<dependency>
 			<groupId>ru.yandex.qatools.allure</groupId>
 			<artifactId>allure-testng-adaptor</artifactId>
-			<version>RELEASE</version>
+			<version>${allure.version}</version>
 		</dependency>
 
 		<dependency>
