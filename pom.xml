@@ -140,7 +140,7 @@
 	</build>
 
 	<!-- Allure reporting -->
-	<reporting>
+	<!--<reporting>
 		<excludeDefaults>true</excludeDefaults>
 		<plugins>
 			<plugin>
@@ -149,5 +149,5 @@
 				<version>2.6</version>
 			</plugin>
 		</plugins>
-	</reporting>
+	</reporting>-->
 </project>
