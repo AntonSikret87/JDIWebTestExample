@@ -54,7 +54,7 @@ public static ThreadLocal<WebDriver> driverContainer = new ThreadLocal<>();
 
 
 		//	try {
-				System.setProperty("webdriver.chrome.driver","D:\\AutoMy\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","D:\\AutoMy\\JenkinsAndSelenServ\\chromedriver.exe");
 				driverContainer.set(new RemoteWebDriver(
 						URI.create("http://localhost:4444/wd/hub").toURL(), //http://192.168.65.1:4444/wd/hub
 						capabilities));
