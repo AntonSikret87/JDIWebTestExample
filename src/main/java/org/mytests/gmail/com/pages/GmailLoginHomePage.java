@@ -13,7 +13,7 @@ import org.openqa.selenium.support.FindBy;
  */
 public class GmailLoginHomePage extends WebPage {
 
-	@FindBy(css = "input[type='email']") public ITextField emailField;
+	@FindBy(css = "#identifierId") public WebElement emailField;  //input[type='email']
 
 	@FindBy(css = "input[type='password']") public ITextField passwordField;
 
@@ -25,6 +25,7 @@ public class GmailLoginHomePage extends WebPage {
 
 
 	public void enterEmail(String email){
+		emailField.click();
 		emailField.sendKeys(email);
 	}
 
